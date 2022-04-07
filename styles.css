@@ -1,0 +1,365 @@
+/* Page max-width: 712px 
+Text: #3a3a3a Orange 
+Buttons/CTAs: #FF7800 
+Dark grey: #3a3a3a 
+Form background: #676767 
+Footer: #F0F0F0 
+Borders: #cccccc
+*/
+html 
+{
+    /* max-width: 712px; */
+    background-color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 
+{
+    text-align: left;
+    color: #3A3A3A;
+    margin: 0 auto;
+    font-size: 38px;
+    line-height: 49px;
+    max-width: 712px;
+    font-family: 'Montserrat', sans-serif; 
+    
+}  
+
+
+
+body  
+{   
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+
+h2
+{   
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 712px;
+    margin: 0 auto;
+
+}
+
+
+header 
+{
+    width: 100%;
+    background-color: #3a3a3a;
+}
+
+p
+{
+    text-align: left;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 712px;
+    margin: 2rem auto;
+
+}
+
+/* Banner & Logo Styling */
+.logo 
+{
+    max-width: 100% !important;
+}
+
+.logoImage
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 86px;
+    width: 100%;
+    background: #3A3A3A;
+}
+
+/* Image styling */
+.imageClass 
+{
+    width: 712px;
+    max-width: 100%;
+}
+
+/* image
+{
+    max-width: 100%;
+    align-self: center;
+} */
+
+
+/* Footer styles */
+.footerBackground
+{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #F0F0F0;
+}
+
+.footerForm
+{   
+    margin: 0 auto;
+    max-width: 712px;
+    background-color: #F0F0F0;
+}
+
+/* Button styles */
+.button
+{   
+    height: 3rem;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 70%;
+    max-width: 712px;
+    background: #FF7800;
+}
+
+/* Advertisement */
+.advert
+{   
+    margin: 0 auto;
+    max-width: 712px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #CCCCCC;
+    padding-bottom: 2rem;
+}
+
+.adTitle
+{
+    text-align: right;
+    color:#CCCCCC;
+    margin-right: 1rem;
+}
+
+.adText
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.adText2
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+/* Author  */
+.authorDetails
+{   
+    /* text-align: left;
+    max-width: 712px;
+    margin: 2rem auto; */
+
+}
+
+.authorImage
+{
+    height: 40px;
+    width: 40px;
+}
+
+.box
+{   
+    display: flex;
+    align-items: center;  
+    text-align: left;
+    margin: 0 auto;
+    max-width: 712px;
+}
+
+/* List styling */
+ul
+{
+    list-style: none;
+    margin: 0, auto;
+    text-align: left;
+}
+
+/* Teaser */
+.teaser
+{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 712px;
+    background-color: #3A3A3A;
+}
+
+.teaserImage{
+    background-color: #3A3A3A;
+}
+
+.bannerText
+{
+    background-color: #3A3A3A;
+    margin-top: 0;
+    color: white;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+/* trial */
+.trial
+{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 712px;
+    background-color: #676767;
+    padding-bottom: 3rem;
+}
+
+.trialImage
+{
+    padding-top: 3rem;
+}
+/* pinch */
+.pinch
+{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 712px;
+    background-color: #3A3A3A;
+}
+
+/* date */
+.date
+{
+    color: #676767;
+    text-align: left;
+    max-width: 712px;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+}
+
+/* other */
+.line
+{
+    
+}
+
+
+/*/////////////////*/
+
+/* media query*/
+@media screen and (max-width: 600px)
+{
+    
+    #topStack 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title
+    {   
+        margin-top: 1rem;
+        order: 2;
+    }
+
+    #secondTitle
+    {
+        order: 3;
+        margin-left: 1rem;
+    }
+
+    /* #line
+    {
+        color: #FF7800;
+        order: 4;
+        background-color: #FF7800;
+        border-bottom: 2px;
+        width: ;
+    } */
+
+    #authorBox
+    {   
+        margin-top: 1rem;
+        order: 5;
+    }
+
+    .date
+    {   
+        text-align: center;
+        order: 6;
+    }
+
+    .teaser
+    {
+        width: 100%;
+        order: 1;
+    }
+
+    h1 
+    {   
+        text-align: center;
+    }
+
+    h2
+    {   
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .authorName
+    {
+        order: 3;
+    }
+
+    .bannerText
+    {
+        text-align: left;
+    }
+    
+    .date
+    {
+        align-content: center;
+    }
+
+    .authorRole
+    {
+        display: none;
+    }
+
+    .authorImage
+    {
+        display: none;
+    }
+
+    .box
+    {
+        /* margin: 0 auto; */
+        display: inline;
+        align-content: center;
+    }
+
+    .advert
+    {
+        background-color: #3A3A3A;
+    }
+
+    .adText
+    {
+        display: none;
+    }
+
+    .adText2
+    {
+        color: white;
+    }
+    
+    .firstParagraph
+    {
+        font-weight: bold;
+    }
+
+    p
+    {
+        margin-left: 1rem;
+        margin-right: 0.5rem;
+    }
+}
